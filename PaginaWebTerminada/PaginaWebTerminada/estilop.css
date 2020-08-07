@@ -1,0 +1,50 @@
+/*estilos del body*/
+body{
+    background-image: url('aspa.jpg');
+    margin: 0;
+}
+
+/*Estilos del NavBar  barra de navegación*/
+.Nav:hover{
+transition: ease-in 0.5s;
+background-color: rgba(83, 83, 83, 0.13);
+border-radius: 5px;
+}
+
+/*Linea para el navbar*/
+.linkLinea {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #000;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border: #ccc;
+    margin: auto;
+}
+
+.imagen{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
+}

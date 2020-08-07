@@ -1,0 +1,77 @@
+.container {
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid #000000;
+    width:430px;
+    height:500px;
+}
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    display:block;
+    margin-top: 20px;
+}
+
+.formulario {
+    display:block;
+    margin:0 auto;
+    width: 501px;
+    color: black;
+    font-family:Arial;
+    width:380px;
+    height:27px;
+    
+}
+form {
+    margin:0 auto;
+    width:400px;
+}
+
+input, textarea {
+    width:380px;
+    height:27px;
+    background: white;
+    border:2px solid gray;
+    padding:15px;
+    margin-top:5px;
+    font-size:10px;
+    color: black;
+}
+
+textarea {
+    height:150px;
+}
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    border:2px solid #000000;
+}
+
+input[type=submit] {
+    background-color: gainsboro;
+    color: Black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    
+   
+}
+
+.fila:after {
+    content: "";
+    display: table;
+    clear: both;  
+  }
+

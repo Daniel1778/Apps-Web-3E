@@ -1,0 +1,54 @@
+/*estilos del body*/
+body{
+    background-color:gray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.linkLinea::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background:white;
+    transition: width .3s;
+}
+
+.linkLinea:hover::after {
+    width: 100%;
+    
+}
+
+table{
+    border: #ccc;
+    margin: auto;
+}
+
+.imagen{
+    width: 300px;
+    border-radius: 4px;
+    transition: transform 0.4s;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: rgb(53, 50, 50);
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+.imagen:hover{
+    transform: scale(1.5); 
+}

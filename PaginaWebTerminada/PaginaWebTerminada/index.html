@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar FAN</title>
+
+  <!-- Links a bootstrap CSS y Javascript-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+
+
+
+  <!-- NavBar hecha con bootstrap 4 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="img/LogoCortado-removebg-preview.png" alt="Logo Solar FAN" width="160"
+        height="80"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active Nav linkLinea" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link Nav linkLinea" href="contacto.html">Contacto</a>
+        <a class="nav-item nav-link Nav linkLinea" href="acerca.html">Acerca de</a>
+        
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-md-2">
+        <div class="animated-title textaa">
+          <div class="text-top">
+            <div>
+              <span>Solar FAN</span>
+              <span>Aspa solar</span>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <div>Energía limpia</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-4"></div>
+      <div class="br">
+        <br><br><br>
+      </div>
+      
+      <div class="col-md-6">
+
+        <div class="cardProduct">
+          <div class="mobil">
+            <h3>Solar FAN</h3>
+          <p>Abanico Ecológico</p>
+          </div>
+          
+          <div class="tresIMG ">
+            <a onclick="changeIMG1()">
+              <div class="im1 "><img src="img/Aspa1.jpg" alt="Aspa1"></div>
+            </a>
+            <a onclick="changeIMG2()">
+              <div class="im1"><img src="img/Aspa2.jpg" alt="Aspa2"></div>
+            </a>
+            <a onclick="changeIMG3()">
+              <div class="im2"><img src="img/Aspa3.jpg" alt="Aspa3"></div>
+            </a>
+            <a onclick="changeIMG4()">
+              <div class="im3"><img src="img/Aspa4.jpg" alt="Aspa4"></div>
+            </a>
+
+
+          </div>
+          
+          <hr style="background-color: black; margin: 10px;">
+          
+          <div class="CardIMG"> <img src="img/Aspa1.jpg" alt="Producto Solar FAN Aspa" id="img1"> </div>
+
+
+          <br>
+          <div class="title">
+            <h3>Aspa</h3>
+          </div>
+
+          <div class="desc">
+            <p>Descripcion del producto</p>
+          </div>
+
+          <div class="cantidad">
+            <span><button id="mas" onclick="suma()">+</button>
+              <br><br>
+              <input type="number" name="cantidad" class="inputCant" id="inputCant" value="1"><br><br>
+              <button id="menos" onclick="resta()">-</button>
+
+            </span>
+          </div>
+          <br>
+          <a href="FormularioDatos.html">
+          <button type="button" class="btn btn-primary">Comprar</button>
+          </a>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <br><br> <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+
+        <ul class="listaC">
+          <h1>Características</h1>
+
+          <li>Aspas de plástico 25cm</li>
+          <li>Jaula protectora de plástico 32cm</li>
+          <li>Carcasa protectora de plástico</li>
+          <li>15cm +5 cm del generador</li>
+          <li>tubo ajustable de altura aluminio 60cm</li>
+          <li>caja de mando de plástico 12x20cm</li>
+          <li>3 pulsadores con led (3x6, 3x8, 3x10)</li>
+          <li>Generador (dinamo) 12v</li>
+          <li>Panel solar 12v 10x8 cm</li>
+          <li>Regulador de voltaje de 12v</li>
+          <li>Polea con su banda ajustable</li>
+          <li>Dispensador de calor de aluminio 8cm </li>
+          <li>Batería de 12v y Entrada para cargador de la batería 12v </li>
+          <li>Puerto USB 12v</li>
+          <li>Tornillos y grapas de clic</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+
+        <ul class="listaD">
+          <h1>DESCRIPCION</h1>
+
+          <li>
+            <h3>✔ Es fácil de usar</h3> con uno de los 3 pulsadores podrás elegir la rapidez que
+            desees<br>
+
+            este hará que el abanico  gire a una cierta rapidez y se podrá transformar la velocidad
+            presionando
+            cualquier otro interruptor.
+          </li>
+          <li>
+            <h3>✔ Auto recargable</h3>
+            El  abanico cuenta con un generador (dinamo) para producir corriente mientras  el  abanico gira
+            convertirá esa intensidad de giro en corriente continua y esta se mandara a la batería que se cargará
+          </li>
+          <li>
+            <h3>✔ Panel Solar</h3> 
+            que ayudara a que la batería se recargue mientras el abanico no está en uso
+            ,de igual manera se puede utilizar mientras se recarga.
+            
+            <li>
+            <h3>✔ Power Bank</h3>
+             
+            para cargar cualquier cosa que cuente con alimentación USB.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <ul>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://i.pinimg.com/originals/74/4c/fc/744cfc52887dcf1cc06a34f538bc2961.png" target="_blank"> SolarFAN.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+</body>
+
+</html>

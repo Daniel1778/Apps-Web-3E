@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Solar FAN</title>
+  
+      <!-- Links a bootstrap CSS y Javascript-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" href="styles.css">
+      <script src="scripts.js"></script>
+
+        
+
+        <link type="text/css" rel="stylesheet" href="styleDatos.css">
+
+    </head>
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/LogoCortado-removebg-preview.png" alt="Logo Solar FAN" width="160" height="80"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active Nav linkLinea" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link Nav linkLinea" href="contacto.html">Contacto</a>
+            <a class="nav-item nav-link Nav linkLinea" href="acerca.html">Acerca de</a>
+            
+          </div>
+        </div>
+      </nav>
+
+
+      <br><br><br><br><br><br>
+          <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <label for="nombre"><strong>Correo Electronico:</strong></label>
+                      <input type="text" name="correo" placeholder="Correo Electronico" required>
+                    <br><br>
+                      <label for="nombre"><strong>Direccion de envio*:</strong></label>
+                      <input type="text" name="nombre" placeholder="Nombre" required> <input type="text" name="nombre" placeholder="Apellido" required>
+                    <br><br> 
+                      <input type="text" name="direccion" placeholder="Direccion" required>
+                    <br><br> 
+                      <input type="text" name="cp" placeholder="Codigo Postal" required> <input type="text" name="Ciudad" placeholder="Ciudad" required>
+                    <br><br> 
+                      <input type="text" name="estado" placeholder="Estado" required> <input type="text" name="Pais" placeholder="Pais" required>
+                    <br><br> 
+                      <input type="text" name="telefono" placeholder="Telefono" required>
+                    
+                    
+                </div>
+        
+                <div class="col-md-6">
+                      <h2><u>Pago</u></h2>
+                        <strong>Las transacciones son completamente seguras y cifradas.</strong>
+                    <br><br>
+                    <p>Codigo de descuento:
+                        <br> <input type="text" name="codigo" required> <input type="submit" name="canjear" value="Canjear">
+                        <br><br>
+                        <p><strong>Tarjeta de crédito*</strong></p>
+                        <input type="text" name="numtar" placeholder="Numero de tarjeta" required>
+                        <br><br> Fecha de expiracion*: 
+                        <br> <input type="date"  name="fecha" required> <input type="text" name="codseg" placeholder="Codigo de seguridad" required>
+                        <br><br> <input type="submit" name="comprar" value="Comprar">
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>

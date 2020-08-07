@@ -1,0 +1,124 @@
+.container {
+    border-radius: 15px;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid #000000;
+}
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: black;
+    font-family:Arial;
+}
+
+input[type=text] {
+    width: 49%;
+    height: 7%;
+    background: white;
+    border:2px solid black;
+    padding: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 75%;
+    color: black;
+}
+
+input[type=submit][name=continuar] {
+    background-color: gainsboro;
+    color: black;
+    padding: 1% 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid #000000;
+    float: left;
+    font-size: 75%;
+    width: 30%;
+    height: 5%;
+}
+
+input[type=text][name=codigo] {
+    width: 68%;
+    height: 1%;
+    background: white;
+    border:2px solid black;
+    padding: 1.8%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 75%;
+    color: black;
+}
+
+
+input[type=submit][name=canjear] {
+    background-color: gainsboro;
+    color: black;
+    padding: 1% 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid #000000;
+    float: right;
+    font-size: 75%;
+    width: 30%;
+    height: 50%;
+}
+
+input[type=text][name=numtar] {
+    width: 61%;
+    height: 7%;
+    background: white;
+    border:2px solid black;
+    padding: 2.8%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 75%;
+    color: black;
+}
+
+input[type=date] {
+    width: 30%;
+    height: 7%;
+    background: white;
+    border:2px solid black;
+    padding: 2.8%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size: 75%;
+    color: black;
+}
+
+input[type=text][name=codseg] {
+    width: 27%;
+    height: 7%;
+    background: white;
+    border:2px solid black;
+    padding: 2.8%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 75%;
+    color: black;
+}
+
+
+input[type=submit][name=comprar] {
+    background-color: gainsboro;
+    color: black;
+    padding: 1% 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border:2px solid #000000;
+    float: left;
+    font-size: 75%;
+    width: 30%;
+    height: 10%;
+}
